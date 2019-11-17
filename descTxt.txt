@@ -1,0 +1,114 @@
+Cas d’utilisation : Ajouter produit  
+Acteurs : Administrateur
+Objectif : Il permet administrateur d’ajouter un produit.  
+Précondition :  - Succès d’authentification.  
+Postcondition : produit ajouté.  
+Scénario nominal :
+    1. L’administrateur choisit l’ajout d’un nouveau produit,  
+    2. L’administrateur saisit les informations à remplir sur le nouveau produit,  
+    3. Le système vérifie les données,  
+    4. Le système enregistre le produit.
+    5. un message de succés  s’affiche 
+Scénario alternatif :
+     Champs obligatoires non valides ou vides.
+     Le système affiche un message d’erreur.  
+
+
+
+
+Cas d’utilisation : Modifier produit
+Acteurs : Administrateur
+Objectif : Il permet à l’administrateur de modifier un produit.
+Précondition :
+              -Succès d’Ccation.Ch
+              -Il existe  au moins un produit.
+Postcondition : produit modifié.
+Scénario nominal :
+    1. L’administateur choisit d’affiche la « Liste des produits » ,
+    2. Le système affiche la liste,
+    3. L’administateur choisit la modification d’un produit,  
+    4. Le système affiche le formulaire de modification,  
+    5. L’administateur modifier les informations de produit,  
+    6. Le système demande la validation de modification,
+    7. L’administateur valide la modification,
+    8. Le système vérifie les données,  
+    9. Le système enregistre la modification.
+Scénario alternatif :
+     Champs obligatoires non valides ou vides.
+     Le système affiche un message d’erreur.
+
+
+
+
+Cas d’utilisation : Supprimer produit
+Acteurs : Administrateur
+Objectif : Il permet au administrateur de supprimer un produit.
+Précondition :
+            -Succès d’authentification.
+           
+Postcondition : produit supprimé.
+Scénario nominal :
+    1. L’administrateur choisit d’afficher la « Liste des produits »,  
+    2. Le système affiche la liste,  
+    3. L’administrateur choisit la suppression d’un produit,
+    4. Le système demande la validation de la suppression,  
+    5. L’admin valide la suppression,  
+    6. Le système procède à la suppression du produit.
+7. le système affiche une notification 
+Scénario alternatif :
+     l’admin annule la suppression.
+
+
+
+
+Cas d’utilisation : Consulter la liste des produits
+Acteurs : l’administateur, le visiteur, le client
+Objectif : Il permet aux acteurs de consulter la liste des produits.
+Précondition : Succès d’authentification.
+Postcondition : Aucune.
+Scénario nominal :
+    1. Le système vérifie le type d’utilisateur connecté,
+    2. L’utilisateur  après authentification il choisit d’afficher la liste des produits selon la catégorie 
+3.Le système affiche la liste des produits souhaité,
+    4. Si l’utilisateur est l’admin, le système fait appel aux cas d’utilisation interne « Modifier produit » et « Supprimer produit ».  
+Scénario alternatif : Aucun.  
+
+
+
+
+
+
+Cas d’utilisation : Ajouter des produits dans un panier
+Acteurs :  le client
+Objectif : Il permet au client d’ajouter des produits dans un panier.
+Précondition : Aucune.
+Postcondition : Aucune.
+Scénario nominal :
+  1. Le système affiche la liste des produits
+  2. Le client choisit un produits et l’ajout dans son panier.
+Scénario alternatif : Aucun.  
+
+
+
+
+
+
+
+Cas d’utilisation : Inscription 
+Acteurs :  un visiteur
+Objectif : Il permet au visiteur d’inscrire .
+Précondition : aucune.
+Postcondition : Aucune.
+Scénario nominal :
+1.Cliquer sur s’inscrire
+2. remplir un formulaire par les informations correspondantes
+3.cliqurer sur « envoyer »
+4.Le systéme vérife les données.
+5. un message de succès s’affiche
+Scénario alternatif : le nom utilisateur existe déjà
+Un des champs obligatoire n’est pas saisie  
+
+
+
+
+
