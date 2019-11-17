@@ -1,3 +1,4 @@
+/**wejwej**/
 Cas d’utilisation : Ajouter produit  
 Acteurs : Administrateur
 Objectif : Il permet administrateur d’ajouter un produit.  
